@@ -1,0 +1,230 @@
+*,html{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Lato', sans-serif;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url(../image/back.jpg);
+}
+.content{
+  /* border-top:15px solid #d8af9a ;
+  border-left: 20px solid #bb947f ;
+  border-right: 25px solid #b88163 ;
+  border-bottom: 40px solid #b37b5e ; */
+  width: 66rem;
+  height: 37rem;
+  background-color: rgb(108, 108, 114);
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+/* zone 1 */
+
+.content-zone{
+ 
+  font-size: 25px;
+  width: 250px;
+  height: 370px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.player0,.player1{
+  font-size: 35px;
+  font-weight: 400;
+  opacity: 0.6;
+  color: #444;
+}
+
+.done{
+  opacity: 1;
+  color: #444;
+ 
+}
+.points0,.points1{
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: crimson;
+  margin-left: 10px;
+ 
+}
+.invalid{
+  display: none;
+}
+
+
+.myScore{
+  font-size: 70px;
+  font-weight: 100;
+  color: brown;
+  
+}
+.zone{
+  width:33rem ;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    
+}
+.zone-p1{
+  background-color: #ecf0f1;
+}
+
+.zone-p2{
+  background-color: white;
+}
+.score-initial{
+  font-size: 30px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.current{
+  position: relative;
+  bottom: -20px;
+  background-color: #EB4D4D;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: white;
+  width: 110px;
+  height: 80px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  opacity: 0.9;
+  
+ 
+}
+.current p{
+  color: black;
+  font-size: 16px;
+
+  
+}
+
+
+.deImg{
+  position: absolute;
+  background-color: white;
+  left: 30rem;
+  top: 200px;
+  transform: translatex(-50%,-50%);
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  overflow: hidden;
+  
+   }
+
+.deImg img{
+  position: absolute;
+  right: 0.1px;
+   width: 100%;
+  height: auto;
+  display: none;
+  
+     
+}
+
+img.active{
+  display: inline-block;
+ 
+}
+
+.new-game{
+  position: absolute;
+  left: calc(66rem - 33rem);
+  top: 50px;
+  transform: translatex(-40%);
+  font-size: 20px;
+  font-weight: 300;
+  cursor: pointer;
+}
+.roll{
+  position: absolute;
+  font-size: 20px;
+  left: 33rem;
+  bottom: 150px;
+  transform: translatex(-40%);
+  cursor: pointer;
+  font-weight: 300;
+}
+
+.hold{
+  position: absolute;
+  font-size: 20px;
+  transform: translatex(-43%);
+  left: 33rem;
+  bottom: 100px;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.new-game svg{
+  transform: scale(1.6);
+  position: relative;
+  left: -15px;
+  color: #e62f22;
+  transition: scale 0.2s;
+  
+  
+}
+
+.roll svg{
+  transform: scale(1.6);
+  position: relative;
+  left: -15px;
+  color: #e62f22;
+  transition: scale 0.2s;
+}
+
+.hold svg{
+  transform: scale(1.6);
+  position: relative;
+  left: -15px;
+  color: #e62f22;
+  transition: scale 0.2s;
+}
+
+.myScore{
+  word-spacing: 10px;
+}
+
+.new-game svg:hover{
+  font-weight: 700;
+  transform:scale(2)
+  
+}
+.roll svg:hover{
+  font-weight: 700;
+  transform:scale(2)
+  
+}
+
+.hold svg:hover{
+  font-weight: 700;
+  transform:scale(2)
+  
+}
+
+.visited:hover{
+  font-size: 22px;
+  font-weight: 400;
+  color: #444;
+}

@@ -1,0 +1,46 @@
+
+
+.content{
+  width: 800px;
+  
+  
+ 
+  
+
+}
+.zone{
+  width:400rem ;
+ 
+}
+
+
+.deImg img{
+  right: 0px;
+      
+}
+
+.deImg{
+  top: 200px;
+  left: 350px;
+  transform: translatex(-50%,-50%);
+  
+  
+   }
+.new-game{
+  position: absolute;
+  left:25rem;
+
+}
+.roll{
+  position: absolute;
+  font-size: 20px;
+  left: 25rem;
+
+}
+
+.hold{
+  position: absolute;
+  font-size: 20px;
+  left: 25rem;
+ 
+}

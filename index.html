@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Les fonctions JavaScript</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,100,300" rel="stylesheet">
+    <link href="style/style.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" media="screen and (max-width: 992pxpx)" href="style/style-media.css">
+    <link rel="stylesheet" media="screen and (max-width: 800px)" href="style/style-media-tablete.css">
+    <link rel="stylesheet" media="screen and (max-width: 700px)" href="style/style-media-phone.css">
+   
+  </head>
+  <body >
+
+    <div class=" content  ">
+      
+      <h3 class="new-game visited"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
+        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+        <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+      </svg>NEW GAME</h3>
+      <div class="deImg">
+        <img src="image/face-1.jpg" class="dice active"  alt="">
+        <img src="image/face-2.jpg" class="dice " alt="">
+        <img src="image/face-3.jpg" class="dice" alt="">
+        <img src="image/face-4.jpg" class="dice" alt="">
+        <img src="image/face-5.jpg" class="dice" alt="">
+        <img src="image/face-6.jpg" class="dice" alt="">
+      </div>
+
+      <h3 class="roll visited"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-repeat" viewBox="0 0 16 16">
+        <path d="M11.534 7h3.932a.25.25 0 0 1 .192.41l-1.966 2.36a.25.25 0 0 1-.384 0l-1.966-2.36a.25.25 0 0 1 .192-.41zm-11 2h3.932a.25.25 0 0 0 .192-.41L2.692 6.23a.25.25 0 0 0-.384 0L.342 8.59A.25.25 0 0 0 .534 9z"/>
+        <path fill-rule="evenodd" d="M8 3c-1.552 0-2.94.707-3.857 1.818a.5.5 0 1 1-.771-.636A6.002 6.002 0 0 1 13.917 7H12.9A5.002 5.002 0 0 0 8 3zM3.1 9a5.002 5.002 0 0 0 8.757 2.182.5.5 0 1 1 .771.636A6.002 6.002 0 0 1 2.083 9H3.1z"/>
+      </svg> ROLL DICE</h3>
+      <h3 class="hold visited"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-down" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M3.5 6a.5.5 0 0 0-.5.5v8a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5v-8a.5.5 0 0 0-.5-.5h-2a.5.5 0 0 1 0-1h2A1.5 1.5 0 0 1 14 6.5v8a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 14.5v-8A1.5 1.5 0 0 1 3.5 5h2a.5.5 0 0 1 0 1h-2z"/>
+        <path fill-rule="evenodd" d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
+      </svg>
+      HOLD</h3>
+
+      <div class="zone zone-p1 ">
+        <div class="content-zone">
+        <div class="score-initial">
+        <h3 class="player0 done"><span class="title0"> PLAYER 1</span> <span class="points points0 done "></span></h3>
+        <div class="myScore myScore-p0">0</div>
+      </div>
+        <div class="current current-p0">
+          <p>current</p>
+          <h4 class="current-score0">0</h4>
+        </div>
+      </div>
+      </div>
+      <div class="zone zone-p2">
+        <div class="content-zone">
+          <div class="score-initial">
+        <h3 class="player1 "><span class="title1"> PLAYER 2</span> <span class=" points points1 invalid done "></span></h3>
+        <div class="myScore myScore-p1">0</div>
+        </div>
+        <div class="current current-p1">
+          <p>current</p>
+          <h4 class="current-score1 ">0</h4>
+        </div>
+      </div>
+      </div>
+
+    </div>
+ 
+    <script src="script.js"></script>
+  </body>
+</html>
+
