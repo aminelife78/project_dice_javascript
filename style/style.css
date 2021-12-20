@@ -3,6 +3,9 @@
   margin: 0;
   padding: 0;
 }
+:root{
+  font-size: 62.5%;
+}
 
 body{
   font-family: 'Lato', sans-serif;
@@ -18,8 +21,8 @@ body{
   border-left: 20px solid #bb947f ;
   border-right: 25px solid #b88163 ;
   border-bottom: 40px solid #b37b5e ; */
-  width: 66rem;
-  height: 37rem;
+  width: 100rem;
+  height: 60rem;
   background-color: rgb(108, 108, 114);
   text-align: center;
   display: flex;
@@ -32,9 +35,9 @@ body{
 .content-zone{
  
   font-size: 25px;
-  width: 250px;
-  height: 370px;
-  padding: 20px;
+  width: 25rem;
+  height: 37rem;
+  padding: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -54,11 +57,11 @@ body{
 }
 .points0,.points1{
   display: inline-block;
-  width: 15px;
-  height: 15px;
+  width: 1.5rem;
+  height: 1.5rem;
   border-radius: 50%;
   background-color: crimson;
-  margin-left: 10px;
+  margin-left: 1rem;
  
 }
 .invalid{
@@ -73,8 +76,7 @@ body{
   
 }
 .zone{
-  width:33rem ;
-  
+  width:50rem ;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -89,7 +91,7 @@ body{
 }
 .score-initial{
   font-size: 30px;
-  height: 120px;
+  height: 12rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -101,8 +103,8 @@ body{
   padding-top: 5px;
   padding-bottom: 5px;
   color: white;
-  width: 110px;
-  height: 80px;
+  width: 11rem;
+  height: 8rem;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -122,11 +124,11 @@ body{
 .deImg{
   position: absolute;
   background-color: white;
-  left: 30rem;
-  top: 200px;
-  transform: translatex(-50%,-50%);
-  width: 100px;
-  height: 100px;
+  left: 50rem;
+  top: 20rem;
+  transform: translatex(-50%);
+  width: 10rem;
+  height: 10rem;
   border-radius: 10px;
   overflow: hidden;
   
@@ -149,7 +151,7 @@ img.active{
 
 .new-game{
   position: absolute;
-  left: calc(66rem - 33rem);
+  left: 50rem;
   top: 50px;
   transform: translatex(-40%);
   font-size: 20px;
@@ -159,7 +161,7 @@ img.active{
 .roll{
   position: absolute;
   font-size: 20px;
-  left: 33rem;
+  left: 50rem;
   bottom: 150px;
   transform: translatex(-40%);
   cursor: pointer;
@@ -170,8 +172,8 @@ img.active{
   position: absolute;
   font-size: 20px;
   transform: translatex(-43%);
-  left: 33rem;
-  bottom: 100px;
+  left: 50rem;
+  bottom: 10rem;
   font-weight: 300;
   cursor: pointer;
 }
@@ -179,7 +181,7 @@ img.active{
 .new-game svg{
   transform: scale(1.6);
   position: relative;
-  left: -15px;
+  left: -1.5rem;
   color: #e62f22;
   transition: scale 0.2s;
   
@@ -189,7 +191,7 @@ img.active{
 .roll svg{
   transform: scale(1.6);
   position: relative;
-  left: -15px;
+  left: -1.5rem;
   color: #e62f22;
   transition: scale 0.2s;
 }
@@ -197,7 +199,7 @@ img.active{
 .hold svg{
   transform: scale(1.6);
   position: relative;
-  left: -15px;
+  left: -1.5rem;
   color: #e62f22;
   transition: scale 0.2s;
 }

@@ -1,0 +1,52 @@
+
+
+.content{
+  width: 90rem;
+  height: 60rem;
+  
+  
+ 
+  
+
+}
+.zone{
+  width:45rem ;
+ 
+}
+
+
+.deImg img{
+  right: 0px;
+      
+}
+
+.deImg{
+  top: 150px;
+  left: 45rem;
+  transform: translatex(-50%,-50%);
+  
+  
+   }
+.new-game{
+ 
+  left:45rem;
+  transform: translatex(-50%,-50%);
+
+}
+.roll{
+  
+  font-size: 20px;
+  left:45rem;
+  transform: translatex(-50%,-50%);
+  bottom: 160px;
+
+}
+
+.hold{
+  
+  font-size: 20px;
+  left:45rem;
+  transform: translatex(-50%,-50%);
+  bottom: 110px;
+ 
+}

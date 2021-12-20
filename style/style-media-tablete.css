@@ -1,15 +1,15 @@
 
 .content{
-  width: 700px;
-  height:100vh;
+  width: 100%;
+  height:100%;
 
   }
 
 
 .deImg{
-  top: 500px;
-  left: 410px;
-  transform: translate(-50%,-50%);
+  top: 25rem;
+  left:50% ;
+  
       
 }
 .deImg img{
@@ -17,22 +17,26 @@
 }
 
 .new-game{
-  position: absolute;
-  top: 200px;
-  left: 410px;
-  transform: translate(-50%,-50%);
+
+  top: 60px;
+  left:50% ;
+  
 
 }
 .roll{
-  position: absolute;
-  left: 410px;
-  transform: translate(-50%,-50%);
-
+  bottom: 70px;
+  left:50% ;
+  
 }
 
 .hold{
-  position: absolute;
-  left: 405px;
-  transform: translate(-50%,-50%);
+  bottom: 30px;
+  left:50% ;
+ 
+}
+.current{
+ 
+  bottom: -20px;
+  
  
 }
