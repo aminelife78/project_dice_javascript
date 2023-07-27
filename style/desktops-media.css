@@ -1,48 +1,31 @@
-
-.content{
+.content {
   width: 80rem;
-  height:55rem;
-
-  }
-  .zone{
-    width:40rem ;
-        
-  }
-
-
-.deImg{
-  top: 250px;
-  left:40rem ;
-  transform: translate(-50%,-50%);
-      
+  height: 55rem;
 }
-.deImg img{
+.zone {
+  width: 40rem;
+}
+
+.deImg {
+  top: 250px;
+  left: 40rem;
+  transform: translate(-50%, -50%);
+}
+.deImg img {
   right: 0px;
 }
 
-.new-game{
-  
+.new-game {
   top: 50px;
-  left:40rem ;
-  
-
+  left: 40rem;
 }
-.roll{
-  
-  left:40rem ;
- 
-
+.roll {
+  left: 40rem;
 }
 
-.hold{
- 
-  left:40rem ;
-  
- 
+.hold {
+  left: 40rem;
 }
-.current{
- 
+.current {
   bottom: 15px;
-  
- 
 }
